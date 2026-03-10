@@ -1,0 +1,16 @@
+command:
+  - python
+  - app.py
+
+env:
+  - name: DATABRICKS_HOST
+    value: "https://dbc-6177f465-6143.cloud.databricks.com"
+
+  - name: DATABRICKS_HTTP_PATH
+    value: "/sql/1.0/warehouses/e676399deb5b8f80"
+
+  - name: DATABRICKS_TOKEN
+   value:
+
+  - name: PYTHONUNBUFFERED
+    value: "1"
